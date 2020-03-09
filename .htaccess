@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^nakshtra.html/?$ / [L,R,NC]
+
+RewriteCond %{HTTP_HOST} ^www.aqueenhomes.com [NC]
+RewriteRule ^(.*)$ https://aqueenhomes.com/$1 [L,R=301]
+
+
+# redirect html pages to the root domain
+RewriteRule ^index\.html$ / [NC,R,L]
+
