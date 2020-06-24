@@ -1,0 +1,36 @@
+<!-- <div id="myModal" class="modal fade" role="dialog" class="modal fade bd-example-modal-sm" tabindex="-1"
+        aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">Enquiry</h4>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="" id="">
+                        <div class="input-name">
+                            <label for="name">Name</label>
+                            <input type="text" class="input name" placeholder="Name" name="name" id="name" required>
+                        </div>
+                        <div class="input-email">
+                            <label for="email">Email ID</label>
+                            <input type="text" class="input email" placeholder="Email ID" name="email" id="email"
+                                required pattern="[^ @]*@[^ @]*">
+                        </div>
+                        <div class="input-mobile">
+                            <label for="phone">Contact Number</label>
+                            <input type="text" class="input mobile" placeholder="Contact Number" name="phone" id="phone"
+                                required pattern="[0-9]{10}">
+                        </div>
+
+                        <div class="loader"></div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn onsubmit">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ -->
